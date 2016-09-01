@@ -8,7 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UIPopoverPresentationControllerDelegate {
+    @IBOutlet weak var img_like: UIImageView!
+
+    
+    func changeLike() {
+        <#function body#>
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +25,22 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "showView") {
+            let controller = segue.destinationViewController
+            controller.popoverPresentationController?.delegate = self
+            controller.preferredContentSize = CGSize(width: 220, height: 30)
+            
+        }
+    }
+    
+    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .None
+    }
 
+   
 
 }
 

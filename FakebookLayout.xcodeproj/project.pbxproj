@@ -14,6 +14,19 @@
 		43465DF91D77CD6400631837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43465DF71D77CD6400631837 /* LaunchScreen.storyboard */; };
 		43465E041D77CD6400631837 /* FakebookLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43465E031D77CD6400631837 /* FakebookLayoutTests.swift */; };
 		43465E0F1D77CD6400631837 /* FakebookLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43465E0E1D77CD6400631837 /* FakebookLayoutUITests.swift */; };
+		43465E291D77D03900631837 /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E1D1D77D03900631837 /* angry.png */; };
+		43465E2A1D77D03900631837 /* avatar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E1E1D77D03900631837 /* avatar1.png */; };
+		43465E2B1D77D03900631837 /* avatar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E1F1D77D03900631837 /* avatar2.png */; };
+		43465E2C1D77D03900631837 /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E201D77D03900631837 /* comment.png */; };
+		43465E2D1D77D03900631837 /* greyLike.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E211D77D03900631837 /* greyLike.png */; };
+		43465E2E1D77D03900631837 /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E221D77D03900631837 /* haha.png */; };
+		43465E2F1D77D03900631837 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E231D77D03900631837 /* img.png */; };
+		43465E301D77D03900631837 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E241D77D03900631837 /* like.png */; };
+		43465E311D77D03900631837 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E251D77D03900631837 /* love.png */; };
+		43465E321D77D03900631837 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E261D77D03900631837 /* sad.png */; };
+		43465E331D77D03900631837 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E271D77D03900631837 /* share.png */; };
+		43465E341D77D03900631837 /* wow.png in Resources */ = {isa = PBXBuildFile; fileRef = 43465E281D77D03900631837 /* wow.png */; };
+		434844281D77DEF30087CC89 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434844271D77DEF30087CC89 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		43465E0A1D77CD6400631837 /* FakebookLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakebookLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43465E0E1D77CD6400631837 /* FakebookLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakebookLayoutUITests.swift; sourceTree = "<group>"; };
 		43465E101D77CD6400631837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43465E1D1D77D03900631837 /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
+		43465E1E1D77D03900631837 /* avatar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar1.png; sourceTree = "<group>"; };
+		43465E1F1D77D03900631837 /* avatar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar2.png; sourceTree = "<group>"; };
+		43465E201D77D03900631837 /* comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment.png; sourceTree = "<group>"; };
+		43465E211D77D03900631837 /* greyLike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyLike.png; sourceTree = "<group>"; };
+		43465E221D77D03900631837 /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haha.png; sourceTree = "<group>"; };
+		43465E231D77D03900631837 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		43465E241D77D03900631837 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		43465E251D77D03900631837 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		43465E261D77D03900631837 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		43465E271D77D03900631837 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		43465E281D77D03900631837 /* wow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wow.png; sourceTree = "<group>"; };
+		434844271D77DEF30087CC89 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +123,14 @@
 		43465DED1D77CD6400631837 /* FakebookLayout */ = {
 			isa = PBXGroup;
 			children = (
+				43465E1C1D77D00000631837 /* resource */,
 				43465DEE1D77CD6400631837 /* AppDelegate.swift */,
 				43465DF01D77CD6400631837 /* ViewController.swift */,
 				43465DF21D77CD6400631837 /* Main.storyboard */,
 				43465DF51D77CD6400631837 /* Assets.xcassets */,
 				43465DF71D77CD6400631837 /* LaunchScreen.storyboard */,
 				43465DFA1D77CD6400631837 /* Info.plist */,
+				434844271D77DEF30087CC89 /* PopUpViewController.swift */,
 			);
 			path = FakebookLayout;
 			sourceTree = "<group>";
@@ -123,6 +151,25 @@
 				43465E101D77CD6400631837 /* Info.plist */,
 			);
 			path = FakebookLayoutUITests;
+			sourceTree = "<group>";
+		};
+		43465E1C1D77D00000631837 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				43465E1D1D77D03900631837 /* angry.png */,
+				43465E1E1D77D03900631837 /* avatar1.png */,
+				43465E1F1D77D03900631837 /* avatar2.png */,
+				43465E201D77D03900631837 /* comment.png */,
+				43465E211D77D03900631837 /* greyLike.png */,
+				43465E221D77D03900631837 /* haha.png */,
+				43465E231D77D03900631837 /* img.png */,
+				43465E241D77D03900631837 /* like.png */,
+				43465E251D77D03900631837 /* love.png */,
+				43465E261D77D03900631837 /* sad.png */,
+				43465E271D77D03900631837 /* share.png */,
+				43465E281D77D03900631837 /* wow.png */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +277,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				43465DF91D77CD6400631837 /* LaunchScreen.storyboard in Resources */,
+				43465E291D77D03900631837 /* angry.png in Resources */,
+				43465E2E1D77D03900631837 /* haha.png in Resources */,
+				43465E331D77D03900631837 /* share.png in Resources */,
 				43465DF61D77CD6400631837 /* Assets.xcassets in Resources */,
+				43465E2D1D77D03900631837 /* greyLike.png in Resources */,
+				43465E311D77D03900631837 /* love.png in Resources */,
+				43465E321D77D03900631837 /* sad.png in Resources */,
+				43465E2F1D77D03900631837 /* img.png in Resources */,
+				43465E341D77D03900631837 /* wow.png in Resources */,
 				43465DF41D77CD6400631837 /* Main.storyboard in Resources */,
+				43465E2A1D77D03900631837 /* avatar1.png in Resources */,
+				43465E2B1D77D03900631837 /* avatar2.png in Resources */,
+				43465E2C1D77D03900631837 /* comment.png in Resources */,
+				43465E301D77D03900631837 /* like.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43465DF11D77CD6400631837 /* ViewController.swift in Sources */,
+				434844281D77DEF30087CC89 /* PopUpViewController.swift in Sources */,
 				43465DEF1D77CD6400631837 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +544,7 @@
 				43465E151D77CD6400631837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43465E161D77CD6400631837 /* Build configuration list for PBXNativeTarget "FakebookLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +553,7 @@
 				43465E181D77CD6400631837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43465E191D77CD6400631837 /* Build configuration list for PBXNativeTarget "FakebookLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +562,7 @@
 				43465E1B1D77CD6400631837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
